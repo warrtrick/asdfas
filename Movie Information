@@ -1,0 +1,33 @@
+
+import java.util.Scanner;
+
+public class MovieInformation {
+        public static void main(String[] args) {    
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter Movie Title: ");
+        String myString1 = scanner.nextLine();
+
+        System.out.print("Enter Movie Director: ");
+        String myString2 = scanner.nextLine();
+        
+        System.out.print("Enter release year: ");
+        int myInt1 = scanner.nextInt();
+        
+        System.out.print("Enter runtime: ");
+        int myInt2 = scanner.nextInt();
+        
+        System.out.print("Enter rating: ");
+        double myDouble = scanner.nextDouble();
+        
+        System.out.println();
+        System.out.println( "Title" + myString1);
+        System.out.println( "Director" + myString2);
+        System.out.println( "Release Year" + myInt1);
+        System.out.println( "runtime " + myInt2 + " minutes");
+        System.out.println("rating " + myDouble);
+        scanner.close();
+      
+    }    
+    
+}
