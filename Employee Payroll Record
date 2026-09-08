@@ -1,0 +1,34 @@
+
+import java.util.Scanner;
+
+public class EmployeePayrollRecord{
+        public static void main(String[] args) {    
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Employee Name: ");
+        String myString1 = scanner.nextLine();
+
+        System.out.print("Employee ID: ");
+        String myString2 = scanner.nextLine();
+
+        System.out.print("Position: ");
+        String myString3 = scanner.nextLine();
+            
+        System.out.print("Hours Worked: ");
+        double my2b = scanner.nextDouble();
+        
+        System.out.print("Hourly Rate: ");
+        double my2a = scanner.nextDouble();
+  
+
+        System.out.println();
+        System.out.println( myString1);
+        System.out.println( myString2);
+        System.out.println( myString3);
+        System.out.println( my2b);
+        System.out.println( my2a);
+        scanner.close();
+      
+    }    
+    
+}
