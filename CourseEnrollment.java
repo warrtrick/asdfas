@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class MovieInformation {
+public class ClassEnrollment{
         public static void main(String[] args) {    
         Scanner scanner = new Scanner(System.in);
 
@@ -15,18 +15,18 @@ public class MovieInformation {
         String myString3 = scanner.nextLine();
         
         System.out.print("Units: ");
-        int myInt2 = scanner.nextInt();
+        int myInt1 = scanner.nextInt();
         
         System.out.print("Section: ");
         char myChar = scanner.next().charAt(0);
 
         
         System.out.println();
-        System.out.println( "Name " + myString1);
-        System.out.println( "Direct" + myString2);
-        System.out.println( "Direct" + myString3);
-        System.out.println( "Release Year" + myInt1);
-        System.out.println( "Release Year" + myChar);
+        System.out.println( "Name: " + myString1);
+        System.out.println( "Subject Code: " + myString2);
+        System.out.println( "Subject: " + myString3);
+        System.out.println( "Units: " + myInt1);
+        System.out.println( "Section: " + myChar);
         scanner.close();
       
     }    
