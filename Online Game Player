@@ -1,0 +1,34 @@
+
+import java.util.Scanner;
+
+public class ClassEnrollment{
+        public static void main(String[] args) {    
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Username: ");
+        String myString1 = scanner.nextLine();
+
+        System.out.print("Character name: ");
+        String myString2 = scanner.nextLine();
+        
+        System.out.print("Level: ");
+        int myInt1 = scanner.nextInt();
+        
+        System.out.print("Experience points: ");
+        long myLong = scanner.nextLong();
+        scanner.nextLine();
+            
+        System.out.print("Rank: ");
+        String myString3 = scanner.nextLine();
+
+        System.out.println();
+        System.out.println( myString1);
+        System.out.println( myString2);
+        System.out.println( myLong);
+        System.out.println( myInt1);
+        System.out.println( myString3);
+        scanner.close();
+      
+    }    
+    
+}
