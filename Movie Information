@@ -21,11 +21,12 @@ public class MovieInformation {
         double myDouble = scanner.nextDouble();
         
         System.out.println();
-        System.out.println( "Title" + myString1);
-        System.out.println( "Director" + myString2);
-        System.out.println( "Release Year" + myInt1);
-        System.out.println( "runtime " + myInt2 + " minutes");
-        System.out.println("rating " + myDouble);
+        System.out.println( "James Zedrick Montalbo");
+        System.out.println( "Title: " + myString1);
+        System.out.println( "Director: " + myString2);
+        System.out.println( "Release Year: " + myInt1);
+        System.out.println( "Runtime: " + myInt2 + " minutes");
+        System.out.println("Rating: " + myDouble);
         scanner.close();
       
     }    
